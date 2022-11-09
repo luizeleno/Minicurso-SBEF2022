@@ -17,6 +17,13 @@ def make_averager():
     return averager
 
 avg = make_averager()
+print(avg(10))
+print(avg(11))
+print(avg(12))
+print(avg(13))
+print(avg(10))
+print(avg(17))
+
 print(avg.__code__.co_varnames)
 print(avg.__code__.co_freevars)
 print(avg.__closure__)
@@ -31,8 +38,8 @@ class averager:
 
 avg = averager()
 
-print(avg(10))
-print(avg(11))
-print(avg(10))
+#print(avg(10))
+#print(avg(11))
+#print(avg(10))
 
-print(dir(avg))
+#print(dir(avg))

@@ -63,7 +63,7 @@ class Complex:
         mz = self.modulus() ** n
         argz = n * self.argument()
         return mz * Complex(numpy.cos(argz), numpy.sin(argz))
-      
+
 if __name__ == '__main__':
     u = Complex(0, 1)
     v = Complex(1, -3)
