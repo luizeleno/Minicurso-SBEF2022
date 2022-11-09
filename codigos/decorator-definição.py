@@ -8,9 +8,9 @@ Um exemplo mostrando o que é um decorator, na forma mais simples possível
 # Definição da função my/-decorator #
 #####################################
 def my_decorator(func):
-    def funcao_de_decoracao(x):
-        a = func(x)
-        return f'a função {func.__name__} de {x} retorna {a}'
+    def funcao_de_decoracao(arg):
+        res = func(arg)
+        return f'a função {func.__name__} de {arg} retorna {res}'
     return funcao_de_decoracao
 
 ####################################################
