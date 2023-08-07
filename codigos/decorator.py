@@ -10,24 +10,25 @@ O segundo é só um pouco mais complicado e aceita um parâmetro.
 
 def decorate(func):
     def ação(*args, **kwargs):
-        a = func(*args)
+        a = func(*args, **kwargs)
         print('função retorna', a)
         return a
     return ação
 
 @decorate
-def f1(a=5):
+def f1(d, x, a=5, b=3):
     return 2 * a
 
-f1(3)
+#x = f1(3, 6)
 
 # decorator com argumentos
 
-def decorador(n=1):
+def decorador(printa=False):
     def def_func(func):
         def def_args(*args, **kwargs):
             a = func(*args, **kwargs)
-            print(f'função retorna {a}; decorador com opção {n}')
+            if printa==True:
+                print(f'função retorna {a}; decorador com opção {printa}')
             return a
         return def_args
     return def_func

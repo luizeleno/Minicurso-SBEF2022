@@ -5,7 +5,7 @@ Um exemplo mostrando o que é um decorator, na forma mais simples possível
 '''
 
 #####################################
-# Definição da função my/-decorator #
+# Definição da função my-decorator #
 #####################################
 def my_decorator(func):
     def funcao_de_decoracao(arg):
@@ -21,13 +21,11 @@ def my_decorator(func):
 def F(x):
     return x**2
 
-print(F(5))
-
 F = my_decorator(F)
 
-print(F(5))
+#print(F(5))
 
-######################################################
+#####################################################
 # agora a mesma coisa usando a sintaxe de decorator: #
 ######################################################
 

@@ -36,23 +36,23 @@ Apesar da pretensão que transpira do resumo acima, é preciso dizer que todos e
 
 1. Generalidades: variáveis de ambiente e atributos
 1. Objetos iteráveis
-   c. abrangência (*comprehension*) e iteráveis
-   a. `iter()` e `next()`
-   d. a declaração `yield`
-   b. percorrendo iteráveis simultaneamente -- `zip()`
-2. Funções
-    a. argumentos posicionais e nomeados; obrigatórios e opcionais
-    a. anotações de função
-    a. funções anônimas (com o construtor `lambda`)
-    a. variáveis locais, não-locais, livres e globais
-    a. *closure* e funções de funções
-    a. módulo `functools`: `partial` e `@cache`
-    a. `decorators`
+   1. `iter()` e `next()`
+   1. percorrendo iteráveis simultaneamente -- `zip()`
+   1. a declaração `yield`
+   1. abrangência (*comprehension*) e iteráveis
+1. Funções
+    1. argumentos posicionais e nomeados; obrigatórios e opcionais
+    1. anotações de função
+    1. funções anônimas (com o construtor `lambda`)
+    1. variáveis locais, não-locais, livres e globais
+    1. *closure* e funções de funções
+    1. módulo `functools`: `partial` e `@cache`
+    1. `decorators`
         i. alguns decoradores padrão: `classmethod` e `staticmethod`
-3. Classes e objetos
-    a. `constructors`
-    a. sobrecarga de operadores
-    a. herança
+1. Classes e objetos
+    1. `constructors`
+    1. sobrecarga de operadores
+    1. herança
 
 # Referências
 

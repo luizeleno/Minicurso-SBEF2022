@@ -16,7 +16,7 @@ def cronometro(func):
         t1 = time.time()
         a = func(*args, **kwargs)
         t2 = time.time()
-        print(f'tempo de execução de {func}: {t2-t1}')
+        print(f'tempo de execução de {func.__name__} de {args[0]}: {t2-t1}')
         return a
     return cronometrar
 
@@ -27,7 +27,7 @@ def f(a, b, c):
 
 fb1c2 = functools.partial(f, b=1, c=2)
 
-print(fb1c2(10))
+#print(fb1c2(10))
 
 # exemplo de @functools.cache
 
@@ -36,6 +36,6 @@ print(fb1c2(10))
 def fatorial(n):  # retorna n!
     return n * fatorial(n-1) if n > 1 else 1
 
-print(fatorial(10))
-
 print(fatorial(11))
+
+print(fatorial(15))
