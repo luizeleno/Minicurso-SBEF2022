@@ -61,7 +61,7 @@ Apesar da pretensão que transpira do resumo acima, é preciso dizer que todos e
 1. <https://realpython.com/python-kwargs-and-args>
 1. <https://realpython.com/python-zip-function>
 1. <https://docs.python.org/3/library/functools.html>
-<!-- 5. <https://realpython.com/lru-cache-python> -->
 1. <https://realpython.com/python-class-constructor>
 1. <https://realpython.com/primer-on-python-decorators>
 1. <https://realpython.com/inheritance-composition-python> 
+<!-- 5. <https://realpython.com/lru-cache-python> -->
