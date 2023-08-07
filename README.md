@@ -1,7 +1,7 @@
 # Python para os fortes - Minicurso apresentado durante a SBEF 2022
 
 * SBEF: Simpósio Brasileiro de Engenharia Física
-    * organizado pelo CAEF (Centro Acadêmico de Engenharia Física) em Lorena/SP, na Escola de Engenharia de Lorena ([EEL](//www.eel.usp.br)) da Universidade de São Paulo([USP](//www.usp.br))
+    * organizado pelo CAEF (Centro Acadêmico de Engenharia Física) em Lorena/SP, na Escola de Engenharia de Lorena ([EEL](//www.eel.usp.br)) da Universidade de São Paulo ([USP](//www.usp.br))
 
 ## Resumo
 
@@ -19,7 +19,7 @@ Apesar da pretensão que transpira do resumo acima, é preciso dizer que todos e
 
 <https://www.demar.eel.usp.br/docentes/luiz-tadeu-fernandes-eleno.html>
 
-# Tópicos do curso {-}
+## Tópicos do curso
 
 1. Generalidades: variáveis de ambiente e atributos
 1. Objetos iteráveis
